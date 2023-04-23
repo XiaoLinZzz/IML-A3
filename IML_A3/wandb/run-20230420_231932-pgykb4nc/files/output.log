@@ -1,0 +1,17 @@
+
+0.23028209556706966
+0.1894070236039148
+0.23028209556706966
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+0.23028209556706966
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m y_probas is not an array. Please try again.
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting Clusterer.
+[34m[1mwandb[39m[22m: Logged elbow curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m using only the first 1000 datapoints to create chart silhouette
+[34m[1mwandb[39m[22m: [33mWARNING[39m using only the first 1000 datapoints to create chart silhouette
+[34m[1mwandb[39m[22m: [33mWARNING[39m using only the first 1000 datapoints to create chart silhouette
+[34m[1mwandb[39m[22m: [33mWARNING[39m using only the first 1000 datapoints to create chart silhouette
+[34m[1mwandb[39m[22m: [33mWARNING[39m using only the first 1000 datapoints to create chart silhouette
+[34m[1mwandb[39m[22m: Logged silhouette plot.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
