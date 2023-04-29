@@ -1,0 +1,183 @@
+2023-04-27 23:18:13,401 INFO    StreamThr :11422 [internal.py:wandb_internal():86] W&B internal server running at pid: 11422, started at: 2023-04-27 23:18:13.401388
+2023-04-27 23:18:13,402 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: status
+2023-04-27 23:18:13,414 INFO    WriterThread:11422 [datastore.py:open_for_write():85] open: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/run-rr0y9yiu.wandb
+2023-04-27 23:18:13,414 DEBUG   SenderThread:11422 [sender.py:send():375] send: header
+2023-04-27 23:18:13,436 DEBUG   SenderThread:11422 [sender.py:send():375] send: run
+2023-04-27 23:18:14,065 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: check_version
+2023-04-27 23:18:14,066 INFO    SenderThread:11422 [dir_watcher.py:__init__():219] watching files in: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files
+2023-04-27 23:18:14,066 INFO    SenderThread:11422 [sender.py:_start_run_threads():1124] run started: rr0y9yiu with start time 1682601493.400712
+2023-04-27 23:18:14,066 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: summary_record
+2023-04-27 23:18:14,067 INFO    SenderThread:11422 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-27 23:18:14,067 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: check_version
+2023-04-27 23:18:14,135 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: run_start
+2023-04-27 23:18:14,146 DEBUG   HandlerThread:11422 [system_info.py:__init__():31] System info init
+2023-04-27 23:18:14,147 DEBUG   HandlerThread:11422 [system_info.py:__init__():46] System info init done
+2023-04-27 23:18:14,147 INFO    HandlerThread:11422 [system_monitor.py:start():181] Starting system monitor
+2023-04-27 23:18:14,147 INFO    SystemMonitor:11422 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-27 23:18:14,148 INFO    HandlerThread:11422 [system_monitor.py:probe():201] Collecting system info
+2023-04-27 23:18:14,149 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started cpu monitoring
+2023-04-27 23:18:14,149 DEBUG   HandlerThread:11422 [system_info.py:probe():195] Probing system
+2023-04-27 23:18:14,149 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started disk monitoring
+2023-04-27 23:18:14,150 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started memory monitoring
+2023-04-27 23:18:14,152 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started network monitoring
+2023-04-27 23:18:14,152 DEBUG   HandlerThread:11422 [system_info.py:_probe_git():180] Probing git
+2023-04-27 23:18:14,181 DEBUG   HandlerThread:11422 [system_info.py:_probe_git():188] Probing git done
+2023-04-27 23:18:14,181 DEBUG   HandlerThread:11422 [system_info.py:probe():240] Probing system done
+2023-04-27 23:18:14,182 DEBUG   HandlerThread:11422 [system_monitor.py:probe():210] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.10', 'heartbeatAt': '2023-04-27T13:18:14.149638', 'startedAt': '2023-04-27T13:18:13.390033', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/XiaoLinZzz/IML.git', 'commit': '0f669319f59c6fa680ccc06128c4f20dc222cf4e'}, 'email': 'xiaolinzzz2002@gmail.com', 'root': '/Users/Uni Course/IML', 'host': 'malujiedeMacBook-Pro.local', 'username': 'malujie', 'executable': '/usr/local/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2800, 'min': 2800, 'max': 2800}, 'cpu_freq_per_core': [{'current': 2800, 'min': 2800, 'max': 2800}], 'disk': {'total': 931.546989440918, 'used': 8.452342987060547}, 'memory': {'total': 16.0}}
+2023-04-27 23:18:14,182 INFO    HandlerThread:11422 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-27 23:18:14,182 INFO    HandlerThread:11422 [system_monitor.py:probe():214] Publishing system info
+2023-04-27 23:18:14,182 DEBUG   HandlerThread:11422 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-27 23:18:14,183 DEBUG   HandlerThread:11422 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-27 23:18:14,184 INFO    HandlerThread:11422 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-27 23:18:14,193 DEBUG   SenderThread:11422 [sender.py:send():375] send: files
+2023-04-27 23:18:14,194 INFO    SenderThread:11422 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-27 23:18:14,216 DEBUG   SenderThread:11422 [sender.py:send():375] send: telemetry
+2023-04-27 23:18:14,216 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-27 23:18:14,217 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: stop_status
+2023-04-27 23:18:14,220 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: pause
+2023-04-27 23:18:14,221 INFO    HandlerThread:11422 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-04-27 23:18:14,221 INFO    HandlerThread:11422 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-27 23:18:14,221 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-27 23:18:14,222 DEBUG   SystemMonitor:11422 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-27 23:18:14,223 DEBUG   SystemMonitor:11422 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-27 23:18:14,223 DEBUG   SystemMonitor:11422 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-27 23:18:14,222 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined disk monitor
+2023-04-27 23:18:14,224 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined memory monitor
+2023-04-27 23:18:14,224 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined network monitor
+2023-04-27 23:18:14,499 DEBUG   SenderThread:11422 [sender.py:send():375] send: stats
+2023-04-27 23:18:15,071 INFO    Thread-12 :11422 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/wandb-metadata.json
+2023-04-27 23:18:15,071 INFO    Thread-12 :11422 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/wandb-summary.json
+2023-04-27 23:18:15,071 INFO    Thread-12 :11422 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/requirements.txt
+2023-04-27 23:18:15,199 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: resume
+2023-04-27 23:18:15,199 INFO    HandlerThread:11422 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-04-27 23:18:15,199 INFO    HandlerThread:11422 [system_monitor.py:start():181] Starting system monitor
+2023-04-27 23:18:15,199 INFO    SystemMonitor:11422 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-27 23:18:15,200 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started cpu monitoring
+2023-04-27 23:18:15,200 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started disk monitoring
+2023-04-27 23:18:15,201 INFO    wandb-upload_0:11422 [upload_job.py:push():137] Uploaded file /var/folders/6_/yw4h8_d91t33tsg16xf17gth0000gn/T/tmp7z_l1gggwandb/1ucs3voo-wandb-metadata.json
+2023-04-27 23:18:15,202 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started memory monitoring
+2023-04-27 23:18:15,203 INFO    SystemMonitor:11422 [interfaces.py:start():190] Started network monitoring
+2023-04-27 23:18:15,215 DEBUG   SenderThread:11422 [sender.py:send():375] send: telemetry
+2023-04-27 23:18:15,232 DEBUG   SenderThread:11422 [sender.py:send():375] send: telemetry
+2023-04-27 23:18:15,235 DEBUG   SenderThread:11422 [sender.py:send():375] send: exit
+2023-04-27 23:18:15,235 INFO    SenderThread:11422 [sender.py:send_exit():598] handling exit code: 0
+2023-04-27 23:18:15,235 INFO    SenderThread:11422 [sender.py:send_exit():600] handling runtime: 0
+2023-04-27 23:18:15,236 INFO    SenderThread:11422 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-27 23:18:15,236 INFO    SenderThread:11422 [sender.py:send_exit():606] send defer
+2023-04-27 23:18:15,236 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,236 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-27 23:18:15,237 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,237 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-27 23:18:15,237 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 1
+2023-04-27 23:18:15,237 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,237 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-27 23:18:15,238 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,238 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-27 23:18:15,238 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 2
+2023-04-27 23:18:15,238 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,238 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-27 23:18:15,238 INFO    HandlerThread:11422 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-27 23:18:15,238 DEBUG   SystemMonitor:11422 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-27 23:18:15,239 DEBUG   SystemMonitor:11422 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-27 23:18:15,239 DEBUG   SystemMonitor:11422 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-27 23:18:15,239 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-27 23:18:15,239 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined disk monitor
+2023-04-27 23:18:15,239 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined memory monitor
+2023-04-27 23:18:15,239 INFO    HandlerThread:11422 [interfaces.py:finish():202] Joined network monitor
+2023-04-27 23:18:15,240 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,240 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-27 23:18:15,240 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 3
+2023-04-27 23:18:15,240 DEBUG   SenderThread:11422 [sender.py:send():375] send: stats
+2023-04-27 23:18:15,240 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,241 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-27 23:18:15,241 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,242 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-27 23:18:15,242 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 4
+2023-04-27 23:18:15,243 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,243 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-27 23:18:15,244 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,244 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-27 23:18:15,244 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 5
+2023-04-27 23:18:15,244 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,244 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-27 23:18:15,245 DEBUG   SenderThread:11422 [sender.py:send():375] send: summary
+2023-04-27 23:18:15,245 INFO    SenderThread:11422 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-27 23:18:15,246 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,246 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-27 23:18:15,246 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 6
+2023-04-27 23:18:15,246 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,246 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-27 23:18:15,247 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,247 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-27 23:18:15,253 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 23:18:15,538 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 7
+2023-04-27 23:18:15,539 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,539 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-27 23:18:15,539 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,539 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-27 23:18:15,539 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 8
+2023-04-27 23:18:15,539 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,539 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-27 23:18:15,540 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,540 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-27 23:18:15,540 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 9
+2023-04-27 23:18:15,540 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:15,540 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-27 23:18:15,541 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:15,541 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-27 23:18:15,541 INFO    SenderThread:11422 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-27 23:18:16,073 INFO    Thread-12 :11422 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/wandb-summary.json
+2023-04-27 23:18:16,074 INFO    SenderThread:11422 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/config.yaml
+2023-04-27 23:18:16,074 INFO    SenderThread:11422 [dir_watcher.py:finish():395] scan: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files
+2023-04-27 23:18:16,074 INFO    SenderThread:11422 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/requirements.txt requirements.txt
+2023-04-27 23:18:16,074 INFO    SenderThread:11422 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/config.yaml config.yaml
+2023-04-27 23:18:16,077 INFO    SenderThread:11422 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/wandb-summary.json wandb-summary.json
+2023-04-27 23:18:16,082 INFO    SenderThread:11422 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/wandb-metadata.json wandb-metadata.json
+2023-04-27 23:18:16,082 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 10
+2023-04-27 23:18:16,083 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:16,084 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-27 23:18:16,089 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:16,089 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-27 23:18:16,089 INFO    SenderThread:11422 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-27 23:18:16,242 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 23:18:16,243 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: poll_exit
+2023-04-27 23:18:16,728 INFO    wandb-upload_0:11422 [upload_job.py:push():137] Uploaded file /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/requirements.txt
+2023-04-27 23:18:16,924 INFO    wandb-upload_1:11422 [upload_job.py:push():137] Uploaded file /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/config.yaml
+2023-04-27 23:18:16,925 INFO    wandb-upload_2:11422 [upload_job.py:push():137] Uploaded file /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/files/wandb-summary.json
+2023-04-27 23:18:17,129 INFO    Thread-11 :11422 [sender.py:transition_state():626] send defer: 11
+2023-04-27 23:18:17,130 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:17,130 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-27 23:18:17,130 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:17,130 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-27 23:18:17,130 INFO    SenderThread:11422 [file_pusher.py:join():173] waiting for file pusher
+2023-04-27 23:18:17,130 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 12
+2023-04-27 23:18:17,131 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:17,131 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-27 23:18:17,131 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:17,131 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-27 23:18:17,245 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 23:18:17,976 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 13
+2023-04-27 23:18:17,977 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: poll_exit
+2023-04-27 23:18:17,977 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:17,978 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-27 23:18:17,978 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:17,978 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-27 23:18:17,978 INFO    SenderThread:11422 [sender.py:transition_state():626] send defer: 14
+2023-04-27 23:18:17,979 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 23:18:17,979 INFO    HandlerThread:11422 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-27 23:18:17,979 DEBUG   SenderThread:11422 [sender.py:send():375] send: final
+2023-04-27 23:18:17,979 DEBUG   SenderThread:11422 [sender.py:send():375] send: footer
+2023-04-27 23:18:17,979 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: defer
+2023-04-27 23:18:17,979 INFO    SenderThread:11422 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-27 23:18:17,980 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 23:18:17,981 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: server_info
+2023-04-27 23:18:17,981 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-27 23:18:17,981 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-27 23:18:17,981 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: poll_exit
+2023-04-27 23:18:17,982 DEBUG   SenderThread:11422 [sender.py:send_request():402] send_request: server_info
+2023-04-27 23:18:18,416 DEBUG   HandlerThread:11422 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-27 23:18:18,416 INFO    HandlerThread:11422 [handler.py:finish():845] shutting down handler
+2023-04-27 23:18:18,985 INFO    WriterThread:11422 [datastore.py:close():298] close: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_231813-rr0y9yiu/run-rr0y9yiu.wandb
+2023-04-27 23:18:19,419 INFO    SenderThread:11422 [sender.py:finish():1550] shutting down sender
+2023-04-27 23:18:19,419 INFO    SenderThread:11422 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-27 23:18:19,419 INFO    SenderThread:11422 [file_pusher.py:join():173] waiting for file pusher

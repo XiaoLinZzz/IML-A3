@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.10",
+    "heartbeatAt": "2023-04-28T11:37:26.384466",
+    "startedAt": "2023-04-28T11:37:23.519417",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/XiaoLinZzz/IML.git",
+        "commit": "0f669319f59c6fa680ccc06128c4f20dc222cf4e"
+    },
+    "email": "xiaolinzzz2002@gmail.com",
+    "root": "/Users/Uni Course/IML",
+    "host": "malujiedeMacBook-Pro.local",
+    "username": "malujie",
+    "executable": "/usr/local/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2800,
+        "min": 2800,
+        "max": 2800
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2800,
+            "min": 2800,
+            "max": 2800
+        }
+    ],
+    "disk": {
+        "total": 931.546989440918,
+        "used": 8.452342987060547
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
