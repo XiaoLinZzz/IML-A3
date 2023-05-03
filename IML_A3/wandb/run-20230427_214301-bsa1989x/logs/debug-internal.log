@@ -1,0 +1,20 @@
+2023-04-27 21:43:02,512 INFO    StreamThr :8706 [internal.py:wandb_internal():86] W&B internal server running at pid: 8706, started at: 2023-04-27 21:43:02.512125
+2023-04-27 21:43:02,515 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status
+2023-04-27 21:43:02,516 INFO    WriterThread:8706 [datastore.py:open_for_write():85] open: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_214301-bsa1989x/run-bsa1989x.wandb
+2023-04-27 21:43:02,516 DEBUG   SenderThread:8706 [sender.py:send():375] send: header
+2023-04-27 21:43:02,517 DEBUG   SenderThread:8706 [sender.py:send():375] send: run
+2023-04-27 21:43:03,826 INFO    SenderThread:8706 [dir_watcher.py:__init__():219] watching files in: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_214301-bsa1989x/files
+2023-04-27 21:43:03,826 INFO    SenderThread:8706 [sender.py:_start_run_threads():1124] run started: bsa1989x with start time 1682595781.650124
+2023-04-27 21:43:03,828 DEBUG   SenderThread:8706 [sender.py:send_request():402] send_request: summary_record
+2023-04-27 21:43:03,829 INFO    SenderThread:8706 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-27 21:43:03,832 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: check_version
+2023-04-27 21:43:03,843 DEBUG   SenderThread:8706 [sender.py:send_request():402] send_request: check_version
+2023-04-27 21:43:04,831 INFO    Thread-241:8706 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230427_214301-bsa1989x/files/wandb-summary.json
+2023-04-27 21:43:08,490 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 21:43:13,505 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 21:43:18,528 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 21:43:23,540 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 21:43:28,554 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 21:43:33,568 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 21:43:38,589 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 21:43:43,602 DEBUG   HandlerThread:8706 [handler.py:handle_request():144] handle_request: status_report

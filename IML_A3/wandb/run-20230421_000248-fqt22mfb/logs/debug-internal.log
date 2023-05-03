@@ -1,0 +1,352 @@
+2023-04-21 00:02:56,124 INFO    StreamThr :11072 [internal.py:wandb_internal():86] W&B internal server running at pid: 11072, started at: 2023-04-21 00:02:56.123695
+2023-04-21 00:02:56,125 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status
+2023-04-21 00:02:56,126 INFO    WriterThread:11072 [datastore.py:open_for_write():85] open: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/run-fqt22mfb.wandb
+2023-04-21 00:02:56,127 DEBUG   SenderThread:11072 [sender.py:send():375] send: header
+2023-04-21 00:02:56,127 DEBUG   SenderThread:11072 [sender.py:send():375] send: run
+2023-04-21 00:02:56,761 INFO    SenderThread:11072 [dir_watcher.py:__init__():219] watching files in: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files
+2023-04-21 00:02:56,761 INFO    SenderThread:11072 [sender.py:_start_run_threads():1124] run started: fqt22mfb with start time 1681999375.268891
+2023-04-21 00:02:56,761 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: summary_record
+2023-04-21 00:02:56,762 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-21 00:02:56,766 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: check_version
+2023-04-21 00:02:56,766 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: check_version
+2023-04-21 00:02:56,888 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: run_start
+2023-04-21 00:02:56,890 DEBUG   HandlerThread:11072 [system_info.py:__init__():31] System info init
+2023-04-21 00:02:56,891 DEBUG   HandlerThread:11072 [system_info.py:__init__():46] System info init done
+2023-04-21 00:02:56,891 INFO    HandlerThread:11072 [system_monitor.py:start():181] Starting system monitor
+2023-04-21 00:02:56,891 INFO    SystemMonitor:11072 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-21 00:02:56,891 INFO    HandlerThread:11072 [system_monitor.py:probe():201] Collecting system info
+2023-04-21 00:02:56,892 INFO    SystemMonitor:11072 [interfaces.py:start():190] Started cpu monitoring
+2023-04-21 00:02:56,893 INFO    SystemMonitor:11072 [interfaces.py:start():190] Started disk monitoring
+2023-04-21 00:02:56,894 DEBUG   HandlerThread:11072 [system_info.py:probe():195] Probing system
+2023-04-21 00:02:56,894 INFO    SystemMonitor:11072 [interfaces.py:start():190] Started memory monitoring
+2023-04-21 00:02:56,896 INFO    SystemMonitor:11072 [interfaces.py:start():190] Started network monitoring
+2023-04-21 00:02:56,897 DEBUG   HandlerThread:11072 [system_info.py:_probe_git():180] Probing git
+2023-04-21 00:02:56,921 DEBUG   HandlerThread:11072 [system_info.py:_probe_git():188] Probing git done
+2023-04-21 00:02:56,921 DEBUG   HandlerThread:11072 [system_info.py:probe():240] Probing system done
+2023-04-21 00:02:56,921 DEBUG   HandlerThread:11072 [system_monitor.py:probe():210] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.10', 'heartbeatAt': '2023-04-20T14:02:56.895018', 'startedAt': '2023-04-20T14:02:48.030490', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/XiaoLinZzz/IML.git', 'commit': '5e882142fe43589c44b2470f3bf065c096f3c9ba'}, 'email': 'xiaolinzzz2002@gmail.com', 'root': '/Users/Uni Course/IML', 'host': 'malujiedeMacBook-Pro.local', 'username': 'malujie', 'executable': '/usr/local/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2800, 'min': 2800, 'max': 2800}, 'cpu_freq_per_core': [{'current': 2800, 'min': 2800, 'max': 2800}], 'disk': {'total': 931.546989440918, 'used': 8.452342987060547}, 'memory': {'total': 16.0}}
+2023-04-21 00:02:56,921 INFO    HandlerThread:11072 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-21 00:02:56,921 INFO    HandlerThread:11072 [system_monitor.py:probe():214] Publishing system info
+2023-04-21 00:02:56,921 DEBUG   HandlerThread:11072 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-21 00:02:56,922 DEBUG   HandlerThread:11072 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-21 00:02:56,923 INFO    HandlerThread:11072 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-21 00:02:56,924 DEBUG   SenderThread:11072 [sender.py:send():375] send: files
+2023-04-21 00:02:56,925 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-21 00:02:56,943 DEBUG   SenderThread:11072 [sender.py:send():375] send: telemetry
+2023-04-21 00:02:56,945 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:02:56,945 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:02:57,754 INFO    wandb-upload_0:11072 [upload_job.py:push():137] Uploaded file /var/folders/6_/yw4h8_d91t33tsg16xf17gth0000gn/T/tmp4kjpt4ffwandb/yi5sjsmq-wandb-metadata.json
+2023-04-21 00:02:57,763 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-summary.json
+2023-04-21 00:02:57,763 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-metadata.json
+2023-04-21 00:02:57,763 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/requirements.txt
+2023-04-21 00:03:01,213 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:02,774 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:03:04,781 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:03:06,527 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:06,786 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:03:07,090 DEBUG   SenderThread:11072 [sender.py:send():375] send: config
+2023-04-21 00:03:07,790 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:03:09,035 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-21 00:03:09,036 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: log_artifact
+2023-04-21 00:03:09,050 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-21 00:03:09,798 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/media/table/elbow_curve_0_5d092d16efcf32af8b5d.table.json
+2023-04-21 00:03:09,799 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/media/table
+2023-04-21 00:03:09,799 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/media
+2023-04-21 00:03:10,132 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-21 00:03:10,315 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-21 00:03:10,803 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/media/table/silhouette_plot_1_7f48bb589bedd5a075cc.table.json
+2023-04-21 00:03:10,803 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/media/table
+2023-04-21 00:03:11,081 INFO    wandb-upload_0:11072 [upload_job.py:push():137] Uploaded file /var/folders/6_/yw4h8_d91t33tsg16xf17gth0000gn/T/tmp4kjpt4ffwandb/ali30qdr-media/table/elbow_curve_0_5d092d16efcf32af8b5d.table.json
+2023-04-21 00:03:11,944 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:03:12,345 INFO    wandb-upload_1:11072 [upload_job.py:push():137] Uploaded file /var/folders/6_/yw4h8_d91t33tsg16xf17gth0000gn/T/tmp4kjpt4ffwandb/sx00xboy-media/table/silhouette_plot_1_7f48bb589bedd5a075cc.table.json
+2023-04-21 00:03:14,721 INFO    wandb-upload_0:11072 [upload_job.py:push():95] Uploaded file /Users/malujie/Library/Application Support/wandb/artifacts/staging/tmpnamyrn5t
+2023-04-21 00:03:15,936 INFO    SenderThread:11072 [sender.py:send_request_log_artifact():1438] logged artifact run-fqt22mfb-elbow_curve - {'id': 'QXJ0aWZhY3Q6NDI5MDA4MDIz', 'digest': '752bd3beb238edb060e758fb56074c87', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYzNDQxMTQw', 'latestArtifact': None}, 'version': 'latest'}
+2023-04-21 00:03:15,936 DEBUG   SenderThread:11072 [sender.py:send():375] send: files
+2023-04-21 00:03:15,936 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file media/table/elbow_curve_0_5d092d16efcf32af8b5d.table.json with policy now
+2023-04-21 00:03:15,936 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:15,937 DEBUG   SenderThread:11072 [sender.py:send():375] send: history
+2023-04-21 00:03:15,937 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: summary_record
+2023-04-21 00:03:15,939 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-21 00:03:15,940 DEBUG   SenderThread:11072 [sender.py:send():375] send: config
+2023-04-21 00:03:15,940 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: log_artifact
+2023-04-21 00:03:16,672 INFO    wandb-upload_1:11072 [upload_job.py:push():137] Uploaded file /var/folders/6_/yw4h8_d91t33tsg16xf17gth0000gn/T/tmp4kjpt4ffwandb/338j3ygy-media/table/elbow_curve_0_5d092d16efcf32af8b5d.table.json
+2023-04-21 00:03:16,833 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-summary.json
+2023-04-21 00:03:16,959 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:03:17,784 INFO    wandb-upload_0:11072 [upload_job.py:push():95] Uploaded file /Users/malujie/Library/Application Support/wandb/artifacts/staging/tmpko38tvyj
+2023-04-21 00:03:17,835 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:03:18,870 INFO    SenderThread:11072 [sender.py:send_request_log_artifact():1438] logged artifact run-fqt22mfb-silhouette_plot - {'id': 'QXJ0aWZhY3Q6NDI5MDA4MTA5', 'digest': 'ea5628350b2d2bd6462dfd73f6b56b20', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYzNDQxMTU3', 'latestArtifact': None}, 'version': 'latest'}
+2023-04-21 00:03:18,870 DEBUG   SenderThread:11072 [sender.py:send():375] send: files
+2023-04-21 00:03:18,871 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file media/table/silhouette_plot_1_7f48bb589bedd5a075cc.table.json with policy now
+2023-04-21 00:03:18,871 DEBUG   SenderThread:11072 [sender.py:send():375] send: history
+2023-04-21 00:03:18,871 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: summary_record
+2023-04-21 00:03:18,872 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-21 00:03:18,872 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:03:19,579 INFO    wandb-upload_1:11072 [upload_job.py:push():137] Uploaded file /var/folders/6_/yw4h8_d91t33tsg16xf17gth0000gn/T/tmp4kjpt4ffwandb/lfvzt668-media/table/silhouette_plot_1_7f48bb589bedd5a075cc.table.json
+2023-04-21 00:03:19,844 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-summary.json
+2023-04-21 00:03:19,844 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:03:21,110 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:26,866 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:03:26,866 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:03:26,867 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:03:27,126 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:27,785 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/config.yaml
+2023-04-21 00:03:32,624 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:37,642 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:41,870 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:03:41,871 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:03:41,871 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:03:43,161 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:48,174 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:53,188 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:03:56,822 DEBUG   SystemMonitor:11072 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-21 00:03:56,824 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:03:56,871 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:03:56,871 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:03:56,872 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:03:59,115 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:04,120 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:09,141 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:11,871 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:04:11,888 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:04:11,889 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:04:15,115 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:20,133 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:22,966 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:04:25,382 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:26,829 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:04:26,872 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:04:26,873 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:04:26,873 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:04:31,149 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:36,165 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:41,181 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:41,877 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:04:41,877 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:04:41,877 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:04:47,151 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:52,164 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:04:56,831 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:04:56,881 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:04:56,881 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:04:56,881 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:04:58,121 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:03,137 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:08,150 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:11,884 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:05:11,884 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:05:11,885 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:05:14,146 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:19,150 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:24,160 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:26,835 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:05:26,886 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:05:26,887 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:05:26,887 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:05:29,182 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:34,197 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:39,208 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:41,886 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:05:41,886 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:05:41,887 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:05:45,120 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:50,133 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:55,144 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:05:56,838 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:05:56,890 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:05:56,890 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:05:56,891 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:06:01,124 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:06,143 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:11,158 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:11,893 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:06:11,893 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:06:11,894 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:06:17,143 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:22,159 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:26,840 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:06:26,895 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:06:26,896 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:06:26,896 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:06:28,142 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:33,151 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:38,167 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:41,896 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:06:41,897 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:06:41,898 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:06:44,150 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:49,164 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:54,181 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:06:56,846 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:06:56,899 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:06:56,900 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:06:56,900 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:07:00,157 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:05,176 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:10,185 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:11,903 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:07:11,903 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:07:11,903 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:07:16,154 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:21,175 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:26,184 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:26,846 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:07:26,907 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:07:26,907 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:07:26,908 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:07:32,147 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:37,155 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:41,911 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:07:41,911 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:07:41,912 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:07:42,208 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:47,218 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:52,234 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:07:56,850 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:07:56,913 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:07:56,913 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:07:56,913 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:07:58,147 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:03,173 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:08,184 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:11,915 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:08:11,916 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:08:11,916 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:08:14,150 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:19,167 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:24,186 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:26,853 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:08:26,916 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:08:26,917 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:08:26,917 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:08:29,273 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:34,285 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:39,300 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:41,920 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-21 00:08:41,921 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-21 00:08:41,921 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: stop_status
+2023-04-21 00:08:45,145 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:50,163 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:54,502 DEBUG   SenderThread:11072 [sender.py:send():375] send: telemetry
+2023-04-21 00:08:54,505 DEBUG   SenderThread:11072 [sender.py:send():375] send: exit
+2023-04-21 00:08:54,505 INFO    SenderThread:11072 [sender.py:send_exit():598] handling exit code: 0
+2023-04-21 00:08:54,505 INFO    SenderThread:11072 [sender.py:send_exit():600] handling runtime: 357
+2023-04-21 00:08:54,506 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-21 00:08:54,506 INFO    SenderThread:11072 [sender.py:send_exit():606] send defer
+2023-04-21 00:08:54,506 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,506 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-21 00:08:54,506 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,507 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-21 00:08:54,507 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 1
+2023-04-21 00:08:54,507 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,507 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-21 00:08:54,507 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,507 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-21 00:08:54,507 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 2
+2023-04-21 00:08:54,507 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,507 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-21 00:08:54,507 INFO    HandlerThread:11072 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-21 00:08:54,508 INFO    HandlerThread:11072 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-21 00:08:54,508 INFO    HandlerThread:11072 [interfaces.py:finish():202] Joined disk monitor
+2023-04-21 00:08:54,508 INFO    HandlerThread:11072 [interfaces.py:finish():202] Joined memory monitor
+2023-04-21 00:08:54,508 INFO    HandlerThread:11072 [interfaces.py:finish():202] Joined network monitor
+2023-04-21 00:08:54,509 DEBUG   SystemMonitor:11072 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-21 00:08:54,509 DEBUG   SystemMonitor:11072 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-21 00:08:54,509 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,509 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-21 00:08:54,509 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 3
+2023-04-21 00:08:54,510 DEBUG   SenderThread:11072 [sender.py:send():375] send: stats
+2023-04-21 00:08:54,510 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,510 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-21 00:08:54,510 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,510 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-21 00:08:54,510 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 4
+2023-04-21 00:08:54,511 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,511 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-21 00:08:54,511 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,511 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-21 00:08:54,512 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 5
+2023-04-21 00:08:54,512 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,512 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-21 00:08:54,513 DEBUG   SenderThread:11072 [sender.py:send():375] send: summary
+2023-04-21 00:08:54,513 INFO    SenderThread:11072 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-21 00:08:54,513 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,513 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-21 00:08:54,513 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 6
+2023-04-21 00:08:54,514 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,514 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-21 00:08:54,514 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,514 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-21 00:08:54,518 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: status_report
+2023-04-21 00:08:54,787 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 7
+2023-04-21 00:08:54,787 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:54,788 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-21 00:08:54,788 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:54,788 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-21 00:08:54,910 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-summary.json
+2023-04-21 00:08:54,911 INFO    Thread-27 :11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/config.yaml
+2023-04-21 00:08:55,511 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-21 00:08:58,027 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 8
+2023-04-21 00:08:58,028 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: poll_exit
+2023-04-21 00:08:58,028 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:58,028 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-21 00:08:58,029 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:58,029 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-21 00:08:58,030 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 9
+2023-04-21 00:08:58,030 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:58,030 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-21 00:08:58,030 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:58,030 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-21 00:08:58,030 INFO    SenderThread:11072 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-21 00:08:58,929 INFO    SenderThread:11072 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:08:58,929 INFO    SenderThread:11072 [dir_watcher.py:finish():395] scan: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files
+2023-04-21 00:08:58,930 INFO    SenderThread:11072 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/requirements.txt requirements.txt
+2023-04-21 00:08:58,930 INFO    SenderThread:11072 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log output.log
+2023-04-21 00:08:58,933 INFO    SenderThread:11072 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/config.yaml config.yaml
+2023-04-21 00:08:58,933 INFO    SenderThread:11072 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-summary.json wandb-summary.json
+2023-04-21 00:08:58,939 INFO    SenderThread:11072 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-metadata.json wandb-metadata.json
+2023-04-21 00:08:58,944 INFO    SenderThread:11072 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/media/table/silhouette_plot_1_7f48bb589bedd5a075cc.table.json media/table/silhouette_plot_1_7f48bb589bedd5a075cc.table.json
+2023-04-21 00:08:58,944 INFO    SenderThread:11072 [dir_watcher.py:finish():409] scan save: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/media/table/elbow_curve_0_5d092d16efcf32af8b5d.table.json media/table/elbow_curve_0_5d092d16efcf32af8b5d.table.json
+2023-04-21 00:08:58,945 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 10
+2023-04-21 00:08:58,945 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:08:58,945 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-21 00:08:58,947 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:08:58,947 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-21 00:08:58,947 INFO    SenderThread:11072 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-21 00:08:59,608 INFO    wandb-upload_0:11072 [upload_job.py:push():137] Uploaded file /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/requirements.txt
+2023-04-21 00:08:59,905 INFO    wandb-upload_2:11072 [upload_job.py:push():137] Uploaded file /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/config.yaml
+2023-04-21 00:08:59,906 INFO    wandb-upload_1:11072 [upload_job.py:push():137] Uploaded file /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/output.log
+2023-04-21 00:08:59,910 INFO    wandb-upload_3:11072 [upload_job.py:push():137] Uploaded file /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/files/wandb-summary.json
+2023-04-21 00:09:00,113 INFO    Thread-26 :11072 [sender.py:transition_state():626] send defer: 11
+2023-04-21 00:09:00,114 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:09:00,114 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-21 00:09:00,114 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:09:00,114 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-21 00:09:00,114 INFO    SenderThread:11072 [file_pusher.py:join():173] waiting for file pusher
+2023-04-21 00:09:00,115 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 12
+2023-04-21 00:09:00,115 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:09:00,115 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-21 00:09:00,115 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:09:00,115 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-21 00:09:00,460 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 13
+2023-04-21 00:09:00,460 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:09:00,460 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-21 00:09:00,461 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:09:00,461 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-21 00:09:00,461 INFO    SenderThread:11072 [sender.py:transition_state():626] send defer: 14
+2023-04-21 00:09:00,461 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: defer
+2023-04-21 00:09:00,461 INFO    HandlerThread:11072 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-21 00:09:00,462 DEBUG   SenderThread:11072 [sender.py:send():375] send: final
+2023-04-21 00:09:00,462 DEBUG   SenderThread:11072 [sender.py:send():375] send: footer
+2023-04-21 00:09:00,462 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: defer
+2023-04-21 00:09:00,462 INFO    SenderThread:11072 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-21 00:09:00,463 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-21 00:09:00,464 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: server_info
+2023-04-21 00:09:00,464 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-21 00:09:00,465 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: poll_exit
+2023-04-21 00:09:00,465 DEBUG   SenderThread:11072 [sender.py:send_request():402] send_request: server_info
+2023-04-21 00:09:00,467 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-21 00:09:00,687 DEBUG   HandlerThread:11072 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-21 00:09:00,688 INFO    HandlerThread:11072 [handler.py:finish():845] shutting down handler
+2023-04-21 00:09:01,467 INFO    WriterThread:11072 [datastore.py:close():298] close: /Users/Uni Course/IML/IML_A3/wandb/run-20230421_000248-fqt22mfb/run-fqt22mfb.wandb
+2023-04-21 00:09:01,688 INFO    SenderThread:11072 [sender.py:finish():1550] shutting down sender
+2023-04-21 00:09:01,689 INFO    SenderThread:11072 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-21 00:09:01,689 INFO    SenderThread:11072 [file_pusher.py:join():173] waiting for file pusher
