@@ -1,6 +1,10 @@
 # Assignment 3
 
-## methods
+[![report](https://img.shields.io/badge/report-EC1C24?style=for-the-badge&logo=Adobe-Acrobat-Reader&logoColor=#EC1C24)](https://www.npmjs.com/package/apollo-server)    &nbsp;
+[![code](https://img.shields.io/badge/Code-F37706?style=for-the-badge&logo=jupyter&logoColor=#EC1C24)](new_A3.ipynb)
+
+
+## Methods
 1. KNN
 2.  GNB
 3. BNB
@@ -13,6 +17,12 @@
 
 
 ## About the implementation
+- The implementation code is in [new_A3.ipynb](new_A3.ipynb).
+
 - The implementation is based on the [sklearn](https://scikit-learn.org/stable/) library.
 
-- We use both [raw-data](IML_A3\raw-data) and [tfidf-data](IML_A3\tfidf-data) to train the model.
+- We use both [raw-data](raw-data) and [tfidf-data](tfidf-data) to train the model.
+
+
+## To see more works?
+You can check our all runs in [wandb](https://api.wandb.ai/links/xiaolinzzz/uyv8f6gg).
