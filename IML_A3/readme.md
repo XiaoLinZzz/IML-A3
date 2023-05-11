@@ -1,6 +1,6 @@
 # Assignment 3
 
-[![report](https://img.shields.io/badge/report-EC1C24?style=for-the-badge&logo=Adobe-Acrobat-Reader&logoColor=#EC1C24)](https://www.npmjs.com/package/apollo-server)    &nbsp;
+[![report](https://img.shields.io/badge/report-EC1C24?style=for-the-badge&logo=Adobe-Acrobat-Reader&logoColor=#EC1C24)](https://github.com/XiaoLinZzz/COMP90049-Report/blob/master/COMP90049-report-template/report-template.pdf)    &nbsp;
 [![code](https://img.shields.io/badge/Code-F3DF49?style=for-the-badge&logo=jupyter&logoColor=#EC1C24)](new_A3.ipynb)
 
 
