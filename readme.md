@@ -17,7 +17,7 @@
 
 
 ## About the implementation
-- The implementation code is in [new_A3.ipynb](new_A3.ipynb).
+- The implementation code is in [new_A3.ipynb](IML_A3/new_A3.ipynb).
 
 - The implementation is based on the [sklearn](https://scikit-learn.org/stable/) library.
 
